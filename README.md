@@ -11,9 +11,9 @@
 ##  创建版本库   
     -版本库(repository)也叫仓库，可以看做一个目录，这个目录里的所以文件都由Git进行管理，每个文件的修改、删除，Git都能跟踪    
 ##  工作区和暂存区  
-    -工作区（Working Directory）  
+*工作区（Working Directory）  
     learngit 文件夹就是一个工作区。  
-    版本库（Repository）  
+*版本库（Repository）  
     工作区有个隐藏目录 .git ，这个不算工作区，而是 Git 的版本库  
     版本库里面的 index(stage) 文件叫暂存区，还有Git为我们自动创建的第一个分支 master ，以及指向 master 的一个指针叫做 HEAD  
 ##  Git 创建仓库
