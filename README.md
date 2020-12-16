@@ -17,7 +17,7 @@
     版本库里面的 index(stage) 文件叫暂存区，还有Git为我们自动创建的第一个分支 master ，以及指向 master 的一个指针叫做 HEAD  
 ##  Git 创建仓库
     你可以使用一个已经存在的目录作为Git仓库。
-    git init
+* git init
     Git 使用 git init 命令来初始化一个 Git 仓库，Git 的很多命令都需要在 Git 的仓库中运行，所以 git init 是使用 Git 的第一个命令。
     在执行完成 git init 命令后，Git 仓库会生成一个 .git 目录，该目录包含了资源的所有元数据，其他的项目目录保持不变。
 我的github项目地址：https://github.com/Eliauk-kuroshio/xiaoyuandaohang  
