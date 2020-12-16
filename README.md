@@ -15,9 +15,18 @@
 * 版本库（Repository）  
     工作区有个隐藏目录 .git ，这个不算工作区，而是 Git 的版本库  
     版本库里面的 index(stage) 文件叫暂存区，还有Git为我们自动创建的第一个分支 master ，以及指向 master 的一个指针叫做 HEAD  
-##  Git 创建仓库
-    你可以使用一个已经存在的目录作为Git仓库。
-* git init
-    Git 使用 git init 命令来初始化一个 Git 仓库，Git 的很多命令都需要在 Git 的仓库中运行，所以 git init 是使用 Git 的第一个命令。
-    在执行完成 git init 命令后，Git 仓库会生成一个 .git 目录，该目录包含了资源的所有元数据，其他的项目目录保持不变。
-我的github项目地址：https://github.com/Eliauk-kuroshio/xiaoyuandaohang  
+##  Git 创建仓库  
+    你可以使用一个已经存在的目录作为Git仓库。  
+* git init  
+    Git 使用 git init 命令来初始化一个 Git 仓库，Git 的很多命令都需要在 Git 的仓库中运行，所以 git init 是使用 Git 的第一个命令。  
+    在执行完成 git init 命令后，Git 仓库会生成一个 .git 目录，该目录包含了资源的所有元数据，其他的项目目录保持不变。  
+##  版本回退
+    可以使用如下2种命令，第一种是：git reset --hard HEAD^ 那么如果要回退到上上个版本只需把HEAD^ 改成 HEAD^^ 以此类推。
+    那如果要回退到前100个版本的话，使用上面的方法肯定不方便，我们可以使用下面的简便命令操作：git reset --hard HEAD~100 即可。  
+##  Git撤销修改和删除文件操作。
+    一：撤销修改：  
+    我可以按以前的方法直接恢复到上一个版本。使用 git reset --hard HEAD^  
+    二：删除文件。  
+    可以使用如下命令 git checkout -- b.txt  
+    
+github项目地址：https://github.com/MyHoneylover/ATM
