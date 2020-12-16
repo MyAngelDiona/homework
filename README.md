@@ -29,4 +29,4 @@
     二：删除文件。  
     可以使用如下命令 git checkout -- b.txt  
     
-github项目地址：https://github.com/MyHoneylover/ATM
+我的github项目地址：https://github.com/MyHoneylover/ATM
